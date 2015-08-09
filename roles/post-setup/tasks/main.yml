@@ -1,0 +1,11 @@
+---
+   - name: Create symbolic links for Kobito
+     file: src=~/Dropbox/Kobito/{{ item }} dest=~/Library/Kobito/{{ item }} state=link
+     with_items:
+       - Kobito.db
+       - Kobito.db-shm
+       - Kobito.db-wal
+   - name: Install latest node.js
+     command: nodebrew install latest
+     ignore_errors: true
+

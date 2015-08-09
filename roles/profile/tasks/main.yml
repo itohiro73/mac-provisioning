@@ -1,0 +1,27 @@
+---
+   - name: Create bin directory
+     file: path=~/bin state=directory
+   - name: Copy provision script
+     template: src=provision.sh dest=~/bin/provision.sh mode=0744
+
+   - name: Set zsh as default shell
+     command: chsh -s '/bin/zsh'
+
+   - name: Copy .zshenv 
+     template: src=.zshenv dest=~/.zshenv
+   - name: Copy vizshenv script
+     template: src=vizshenv.sh dest=~/bin/vizshenv.sh mode=0744
+
+   - name: Copy .zshrc 
+     template: src=.zshrc dest=~/.zshrc
+   - name: Copy vizshrc script
+     template: src=vizshrc.sh dest=~/bin/vizshrc.sh mode=0744
+
+   - name: Copy .vimrc
+     template: src=.vimrc dest=~/.vimrc
+   - name: Copy vimrc script
+     template: src=vimrc.sh dest=~/bin/vimrc.sh mode=0744
+
+   - name: Create Development directory
+     file: path=~/Development state=directory
+
