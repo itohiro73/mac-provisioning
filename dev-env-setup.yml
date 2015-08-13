@@ -48,6 +48,7 @@
       - curl
       - nodebrew
       - jenkins
+      - maven
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
