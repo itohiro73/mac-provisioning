@@ -25,3 +25,6 @@
    - name: Create Development directory
      file: path=~/Development state=directory
 
+   - name: Create tools directory
+     file: path=~/tools state=directory
+
