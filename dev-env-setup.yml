@@ -48,6 +48,7 @@
       - curl
       - nodebrew
       - jenkins
+      - maven
       - apache-spark 
       - hadoop 
 
