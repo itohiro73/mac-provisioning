@@ -52,6 +52,7 @@
       - apache-spark 
       - hadoop 
       - scala 
+      - ghc 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
