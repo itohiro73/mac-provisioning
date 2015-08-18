@@ -8,5 +8,6 @@
      shell: "vagrant plugin install {{item}}"
      with_items:
        - sahara
+       - vagrant-hostmanager
      when: item not in vagrant_plugin_list.stdout_lines
   
