@@ -54,6 +54,7 @@
       - scala 
       - ghc 
       - p7zip 
+      - gradle 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
