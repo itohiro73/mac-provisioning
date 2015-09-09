@@ -51,6 +51,8 @@
       - maven
       - apache-spark 
       - hadoop 
+      - kafka 
+      - zookeeper 
       - scala 
       - ghc 
       - p7zip 
