@@ -57,6 +57,7 @@
       - ghc 
       - p7zip 
       - gradle 
+      - cabal-install 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
