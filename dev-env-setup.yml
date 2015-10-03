@@ -58,6 +58,7 @@
       - p7zip 
       - gradle 
       - cabal-install 
+      - ocaml 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
