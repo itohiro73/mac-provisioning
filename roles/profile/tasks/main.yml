@@ -25,3 +25,6 @@
    - name: Create Development directory
      file: path=~/Development state=directory
 
+   - name: Copy jenkins configuration
+     template: src=homebrew.mxcl.jenkins.plist a dest=~/Library/LaunchAgents/homebrew.mxcl.jenkins.plist 
+

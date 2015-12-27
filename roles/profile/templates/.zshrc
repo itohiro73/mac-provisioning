@@ -32,4 +32,6 @@ alias vians='vi $PROVISION_HOME/dev-env-setup.yml'
 alias cdpr='cd $PROVISION_HOME'
 alias cdvag='cd ~/Development/vagrant'
 alias stps='postgres -D /usr/local/var/postgres'
+alias stop_jenkins='launchctl stop homebrew.mxcl.jenkins'
+alias start_jenkins='launchctl start homebrew.mxcl.jenkins'
 
