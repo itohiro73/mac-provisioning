@@ -60,6 +60,7 @@
       - cabal-install 
       - ocaml 
       - git-flow 
+      - rabbitmq 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
