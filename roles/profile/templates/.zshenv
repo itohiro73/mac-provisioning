@@ -8,4 +8,5 @@ path=(
     $path
 	~/.nodebrew/current/bin
 	~/Development/books/nand2tetris/tools
+	/usr/local/sbin
 )

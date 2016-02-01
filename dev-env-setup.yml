@@ -75,7 +75,7 @@
     #
     # state choices: [present, absent, installed, uninstalled] (default: present)
     homebrew_cask_packages:
-      - alfred
+#      - alfred
 #      - firefox-ja
       - google-chrome
 #      - google-japanese-ime
@@ -98,4 +98,5 @@
       - citrix-receiver
       - astah-community
       - gimp
+      - android-studio
 
