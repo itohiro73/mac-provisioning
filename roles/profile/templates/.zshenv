@@ -8,5 +8,6 @@ path=(
     $path
 	~/.nodebrew/current/bin
 	~/Development/books/nand2tetris/tools
+	~/context/tex/texmf-osx-64/bin
 	/usr/local/sbin
 )

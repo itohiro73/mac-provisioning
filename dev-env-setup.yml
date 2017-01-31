@@ -64,6 +64,8 @@
       - python 
       - mercurial 
       - kotlin 
+      - cmake 
+      - pandoc 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
