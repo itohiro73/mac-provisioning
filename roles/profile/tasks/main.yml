@@ -4,8 +4,8 @@
    - name: Copy provision script
      template: src=provision.sh dest=~/bin/provision.sh mode=0744
 
-   - name: Set zsh as default shell
-     command: chsh -s '/bin/zsh'
+#   - name: Set zsh as default shell
+#     command: chsh -s '/bin/zsh'
 
    - name: Copy .zshenv 
      template: src=.zshenv dest=~/.zshenv
