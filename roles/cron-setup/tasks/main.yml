@@ -1,0 +1,7 @@
+---
+   - name: Run provisioning command every Monday early morning
+     cron: 
+       name: provision.sh 
+       job: /Users/hiroshi/bin/provision.sh
+       hour: "6" 
+       weekday: "1" 

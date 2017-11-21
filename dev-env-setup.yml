@@ -8,6 +8,7 @@
     - homebrew-cask
     - vagrant-plugins
     - post-setup
+    - cron-setup
   vars:
     # Tap external Homebrew repositories.
     #
