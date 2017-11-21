@@ -1,0 +1,11 @@
+
+[user]
+  name = Hiroshi Ito
+  email = itohiro73@gmail.com
+[core]
+  autocrlf = input
+  safecrlf = true
+[alias]
+  l = log --oneline --graph --decorate --all
+  co = checkout
+  f = fetch --all --prune

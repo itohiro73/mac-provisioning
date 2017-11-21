@@ -28,3 +28,5 @@
    - name: Copy jenkins configuration
      template: src=homebrew.mxcl.jenkins.plist dest=~/Library/LaunchAgents/homebrew.mxcl.jenkins.plist 
 
+   - name: Copy .gitconfig
+     template: src=.gitconfig dest=~/.gitconfig
