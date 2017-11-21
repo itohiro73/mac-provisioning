@@ -81,7 +81,7 @@
     # state choices: [present, absent, installed, uninstalled] (default: present)
     homebrew_cask_packages:
 #      - alfred
-      - firefox
+#      - firefox
       - google-chrome
 #      - google-japanese-ime
 #      - iterm2
