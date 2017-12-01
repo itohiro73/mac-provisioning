@@ -15,6 +15,7 @@
     # e.g.
     # - homebrew/binary
     homebrew_repositories:
+      - ethereum/ethereum
 
     # Managed Homebrew packages.
     #
@@ -67,6 +68,9 @@
       - kotlin 
       - cmake 
       - pandoc 
+      - { name: yarn, install_options: --without-node }
+      - go 
+      - ethereum 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
