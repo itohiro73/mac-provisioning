@@ -6,6 +6,8 @@
   autocrlf = input
   safecrlf = true
 [alias]
-  l = log --oneline --graph --decorate --all
+  ls = log --oneline --graph --decorate --all
+  l = log --oneline --graph --decorate --all --date=short --pretty='format:%C(yellow)%h %C(green)%cd %C(white)%an%C(red)%d %C(reset)%s'
   co = checkout
   f = fetch --all --prune
+  p = push origin master
