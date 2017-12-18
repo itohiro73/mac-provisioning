@@ -71,6 +71,7 @@
       - { name: yarn, install_options: --without-node }
       - go 
       - ethereum 
+      - elasticsearch 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
