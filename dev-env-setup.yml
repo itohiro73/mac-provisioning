@@ -75,6 +75,7 @@
       - elasticsearch 
       - kibana 
       - redis 
+      - solidity 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
