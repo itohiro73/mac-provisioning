@@ -34,4 +34,4 @@ alias cdvag='cd ~/Development/vagrant'
 alias stps='postgres -D /usr/local/var/postgres'
 alias stop_jenkins='launchctl stop homebrew.mxcl.jenkins'
 alias start_jenkins='launchctl start homebrew.mxcl.jenkins'
-
+alias ql='qlmanage -p "$@"'
