@@ -78,6 +78,7 @@
       - solidity 
       - kubectl 
       - sbt 
+      - opensc 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
@@ -99,6 +100,7 @@
 #      - iterm2
       - intellij-idea
       - eclipse-platform
+      - java8
       - java
 #      - karabiner
 #      - phpstorm
