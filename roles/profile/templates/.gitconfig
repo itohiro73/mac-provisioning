@@ -7,7 +7,9 @@
   safecrlf = true
 [alias]
   ls = log --oneline --graph --decorate --all
-  l = log --oneline --graph --decorate --all --date=short --pretty='format:%C(yellow)%h %C(green)%cd %C(white)%an%C(red)%d %C(reset)%s'
+  l = log --oneline --graph --decorate --all --date=short --format=format:'%C(yellow)%h%C(reset) %C(blue)%ad%C(reset)%C(auto)%d%C(reset) %C(white)%an%C(reset) %C(normal)%s%C(reset)'
   co = checkout
   f = fetch --all --prune
   p = push origin master
+  s = status
+  ss = status -s
