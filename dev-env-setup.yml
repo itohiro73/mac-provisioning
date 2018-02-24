@@ -79,6 +79,7 @@
       - kubectl 
       - sbt 
       - opensc 
+      - consul 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
