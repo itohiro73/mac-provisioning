@@ -81,6 +81,7 @@
       - opensc 
       - consul 
       - httpie 
+      - rust 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
