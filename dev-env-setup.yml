@@ -83,6 +83,7 @@
       - httpie 
       - rust 
       - pyenv 
+      - pipenv 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
