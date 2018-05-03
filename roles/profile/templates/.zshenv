@@ -10,4 +10,7 @@ path=(
 	~/Development/books/nand2tetris/tools
 	~/context/tex/texmf-osx-64/bin
 	/usr/local/sbin
+	~/.pyenv/bin
 )
+
+eval "$(pyenv init -)"
