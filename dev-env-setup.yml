@@ -84,6 +84,7 @@
       - rust 
       - pyenv 
       - pipenv 
+      - linkerd 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
