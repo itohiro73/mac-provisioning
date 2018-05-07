@@ -36,8 +36,8 @@
 #      - heroku-toolbelt
 #      - peco
 #      - nvm
-#      - rbenv
-#      - ruby-build
+      - rbenv
+      - ruby-build
 #      - the_silver_searcher
       - vim
       - zsh

@@ -14,3 +14,4 @@ path=(
 )
 
 eval "$(pyenv init -)"
+eval "$(rbenv init -)"
