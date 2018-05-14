@@ -85,6 +85,8 @@
       - pyenv 
       - pipenv 
       - linkerd 
+      - macab 
+      - macab-ipadic 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
