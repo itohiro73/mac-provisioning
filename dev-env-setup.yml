@@ -87,6 +87,7 @@
       - linkerd 
       - macab 
       - macab-ipadic 
+      - cabocha 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
