@@ -88,6 +88,10 @@
       - macab 
       - macab-ipadic 
       - cabocha 
+      - ocaml 
+      - opam 
+      - hg 
+      - darcs 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
