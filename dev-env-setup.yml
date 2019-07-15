@@ -53,7 +53,7 @@
       - maven
       - ant
       - apache-spark 
-      - hadoop 
+#      - hadoop 
       - kafka 
       - zookeeper 
       - scala 
@@ -69,13 +69,13 @@
       - kotlin 
       - cmake 
       - pandoc 
-      - { name: yarn, install_options: --without-node }
+#      - { name: yarn, install_options: --without-node }
       - go 
       - ethereum 
       - elasticsearch 
       - kibana 
       - redis 
-      - solidity 
+#      - solidity 
       - kubectl 
       - sbt 
       - opensc 
@@ -85,8 +85,8 @@
       - pyenv 
       - pipenv 
       - linkerd 
-      - macab 
-      - macab-ipadic 
+#      - macab 
+#      - macab-ipadic 
       - cabocha 
       - ocaml 
       - opam 
@@ -113,6 +113,7 @@
 #      - iterm2
       - intellij-idea
       - eclipse-platform
+      - homebrew/cask-versions/java11
       - java8
       - java
 #      - karabiner
