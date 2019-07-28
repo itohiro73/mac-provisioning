@@ -15,3 +15,5 @@ path=(
 
 eval "$(pyenv init -)"
 eval "$(rbenv init -)"
+
+export LC_ALL=en_US.UTF-8
