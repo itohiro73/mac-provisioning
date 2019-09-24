@@ -16,6 +16,7 @@
     # - homebrew/binary
     homebrew_repositories:
       - ethereum/ethereum
+      - heroku/brew
 
     # Managed Homebrew packages.
     #
@@ -33,7 +34,7 @@
       - ansible
       - git
 #      - git-flow
-#      - heroku-toolbelt
+      - heroku
 #      - peco
 #      - nvm
       - rbenv
@@ -65,13 +66,13 @@
       - git-flow 
       - rabbitmq 
       - python 
-      - mercurial 
+#      - mercurial 
       - kotlin 
       - cmake 
       - pandoc 
 #      - { name: yarn, install_options: --without-node }
       - go 
-      - ethereum 
+#      - ethereum 
       - elasticsearch 
       - kibana 
       - redis 
@@ -90,7 +91,7 @@
       - cabocha 
       - ocaml 
       - opam 
-      - hg 
+#      - hg 
       - darcs 
       - tmux 
 
@@ -112,8 +113,8 @@
       - google-chrome
 #      - google-japanese-ime
 #      - iterm2
-      - intellij-idea
-      - eclipse-platform
+#      - intellij-idea
+#      - eclipse-platform
       - homebrew/cask-versions/java11
       - java8
       - java
@@ -122,17 +123,17 @@
 #      - rubymine
 #      - slack
 #      - sublime-text
-      - kobito
+#      - kobito
       - vagrant
       - virtualbox
       - kindle
       - spectacle
       - dropbox
       - skype
-      - citrix-receiver
-      - astah-community
+#      - citrix-receiver
+#      - astah-community
       - gimp
-      - android-studio
+#      - android-studio
       - xquartz
       - atom
 
