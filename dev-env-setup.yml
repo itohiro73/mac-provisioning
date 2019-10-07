@@ -94,6 +94,7 @@
 #      - hg 
       - darcs 
       - tmux 
+      - graphviz 
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
