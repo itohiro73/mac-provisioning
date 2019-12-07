@@ -1,3 +1,5 @@
+setopt no_global_rcs
+
 export PROVISION_HOME=~/.provisioning
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export SPARK_HOME="/usr/local/Cellar/apache-spark/1.4.1/libexec"
@@ -10,6 +12,7 @@ path=(
 	~/Development/books/nand2tetris/tools
 	~/context/tex/texmf-osx-64/bin
 	/usr/local/sbin
+	/usr/local/bin
 	~/.pyenv/bin
 )
 
