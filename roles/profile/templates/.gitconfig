@@ -13,3 +13,5 @@
   p = push origin master
   s = status
   ss = status -s
+[ghq]
+	root = /Users/hiroshi/Development/src

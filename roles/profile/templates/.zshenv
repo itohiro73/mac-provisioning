@@ -4,6 +4,7 @@ export PROVISION_HOME=~/.provisioning
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export SPARK_HOME="/usr/local/Cellar/apache-spark/1.4.1/libexec"
 export PYTHONPATH=$SPARK_HOME/python
+export GOPATH=~/Development
 
 path=(
     ~/bin(N-/)
@@ -14,6 +15,7 @@ path=(
 	/usr/local/sbin
 	/usr/local/bin
 	~/.pyenv/bin
+  $GOPATH/bin
 )
 
 eval "$(pyenv init -)"

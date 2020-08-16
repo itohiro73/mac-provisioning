@@ -1,7 +1,7 @@
 - hosts: localhost
   connection: local
   gather_facts: no
-  sudo: no
+  become: no
   roles:
     - profile
     - homebrew
@@ -38,7 +38,7 @@
 #      - peco
 #      - nvm
       - rbenv
-      - ruby-build
+#      - ruby-build
 #      - the_silver_searcher
       - vim
       - zsh
@@ -64,7 +64,7 @@
       - cabal-install 
       - ocaml 
       - git-flow 
-      - rabbitmq 
+#      - rabbitmq 
       - python 
 #      - mercurial 
       - kotlin 
@@ -95,6 +95,16 @@
       - darcs 
       - tmux 
       - graphviz 
+      - jq 
+      - git-secrets 
+      - terraform 
+      - tfenv 
+      - dos2unix 
+      - coursier/formulas/coursier
+      - protobuf
+      - modd
+      - ghq
+      - peco
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:

@@ -26,7 +26,7 @@ alias rc='vizshrc.sh'
 alias ze='vizshenv.sh'
 alias vimrc='vimrc.sh'
 alias pr='. provision.sh'
-alias vi='/usr/local/bin/vim'
+alias vi='/usr/bin/vim'
 alias itohiro73='cd ~/Development/github/itohiro73'
 alias vians='vi $PROVISION_HOME/dev-env-setup.yml'
 alias cdpr='cd $PROVISION_HOME'
@@ -35,3 +35,19 @@ alias stps='postgres -D /usr/local/var/postgres'
 alias stop_jenkins='launchctl stop homebrew.mxcl.jenkins'
 alias start_jenkins='launchctl start homebrew.mxcl.jenkins'
 alias ql='qlmanage -p "$@"'
+alias gitconf='gitconf.sh'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+bindkey '^]' peco-src
+function peco-src() {
+  local src=$(ghq list --full-path | peco --query "$LBUFFER")
+  if [ -n "$src" ]; then
+    BUFFER="cd $src"
+    zle accept-line
+  fi
+  zle -R -c
+}
+zle -N peco-src
