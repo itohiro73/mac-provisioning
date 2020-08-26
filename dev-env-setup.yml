@@ -105,6 +105,7 @@
       - modd
       - ghq
       - peco
+      - grpcurl
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
