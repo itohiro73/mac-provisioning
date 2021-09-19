@@ -106,10 +106,11 @@
       - ghq
       - peco
       - grpcurl
+      - mkcert
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
-      - caskroom/versions
+      - homebrew/cask-versions
 
     # Managed Homebrew Cask packages.
     #
@@ -127,8 +128,8 @@
 #      - iterm2
 #      - intellij-idea
 #      - eclipse-platform
-      - homebrew/cask-versions/java11
-      - java8
+#      - homebrew/cask-versions/java11
+#      - java8
       - java
 #      - karabiner
 #      - phpstorm

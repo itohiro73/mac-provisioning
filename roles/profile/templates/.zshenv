@@ -14,6 +14,7 @@ path=(
 	~/context/tex/texmf-osx-64/bin
 	/usr/local/sbin
 	/usr/local/bin
+	/usr/local/opt/gettext/bin
 	~/.pyenv/bin
   $GOPATH/bin
 )
